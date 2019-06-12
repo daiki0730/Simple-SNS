@@ -14,4 +14,4 @@ $db->query("INSERT INTO tb (num,name,text,time)
 echo "Post complete";
 echo "<p><a href='index.php'>一覧表示へ</a></p>";
 ?> 
-</body>っっっっっｃ
+</body>
