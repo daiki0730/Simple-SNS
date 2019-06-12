@@ -27,7 +27,7 @@ $db = new PDO("mysql:host=localhost;dbname=db","root","root");
 $ps = $db->query("SELECT * FROM tb ORDER BY num DESC");
 while ($r = $ps->fetch()) {
 echo "{$r['num']} {$r['name']} {$r['time']}<br>"
-      .nl2br($r['text'])."<hr>";
+      .nl2br($r['tx'])."<hr>";
 }
 ?> 
 </body>
